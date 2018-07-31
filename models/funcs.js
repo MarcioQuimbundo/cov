@@ -1,0 +1,11 @@
+/*
+Centro Ortopédico de Viana V.1
+C.O.V
+*/
+function showHide(div){
+	if(document.getElementById(div).style.display = 'block'){
+		document.getElementById(div).style.display = 'none';
+	}else{
+		document.getElementById(div).style.display = 'block'; 
+	}
+}

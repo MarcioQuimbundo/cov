@@ -1,0 +1,197 @@
+echo "
+                    <script>
+                           swal({
+                            title: 'Tens a certeza ?',
+                            text: 'Uma vez removido, já não conseguirás recuperar o serviço!',
+                            icon: 'warning',
+                            buttons: true,
+                            dangerMode: true,
+                           })
+                           .then((willDelete) => {
+                            if (willDelete) {
+                                swal('O serviço foi removido com sucesso!', {
+                                icon: 'success',
+                                });
+                                ";
+                                mysqli_query($con,$query);
+                                echo "
+                            } else {
+                                swal('O serviço não foi removido');
+                            }
+                           });
+                    </script>";
+                    
+
+http://www.w3programmers.com/php-working-with-dates-and-times/
+
+----------------------------------------------------------------------------------------------
+
+Using PHP’s getdate() function we can display the  current date and/or time:
+
+<?php
+
+// get current date and time
+
+$now = getdate();
+
+// turn it into strings
+
+$currentTime = $now["hours"]+6 . ":" . $now["minutes"] .":" . $now["seconds"];
+
+$currentDate = $now["mday"] . "." . $now["mon"] . "." . $now["year"];
+
+// result: "It is now 12:37:47 on 30.10.2006" (example)
+
+echo "It is now $currentTime on $currentDate";
+
+?>
+
+Comments
+
+PHP’s getdate() function returns an array of values representing different components of the current date and time. Here’s an example of what the array might look like:
+
+Array
+
+(
+
+[seconds] => 34
+
+[minutes] => 14
+
+[hours] => 9
+
+[mday] => 23
+
+[wday] => 2
+
+[mon] => 5
+
+[year] => 2006
+
+[yday] => 137
+
+[weekday] => Monday
+
+[month] => February
+
+[0] => 1107752144
+
+)
+
+
+
+-------------------------------------------------------------------
+Using PHP’s date() function to alter the appearance of the timestamp with various formatting codes:
+
+<?php
+
+// get date
+
+// result: "30 Oct 2006" (example)
+
+echo date("d M Y"). " <br>";
+
+// get time
+
+// result: "12:38:26 PM" (example)
+
+echo date("h:i:s A"). " <br>";
+
+// get date and time
+
+// result: "Monday, 30 October 2006, 12:38:26 PM" (example)
+
+echo date ("l, d F Y, h:i:s A") . " <br>";
+
+// get time with timezone
+
+// result: "12:38:26 PM UTC"
+
+echo date ("h:i:s A T") . " <br>";
+
+// get date and time in ISO8601 format
+
+// result: "2006-10-30T12:38:26+00:00"
+
+echo date ("c");
+
+?>
+
+
+
+Problem:
+
+How to check a particular date is valid?
+
+ 
+
+Solution:
+
+Using PHP checkdate() function:
+
+<?php
+
+// check date 31-Apr-2006
+
+// result: "valid date"
+
+echo checkdate(10,25,2011) ? "Valid date" : "Invalid date";
+
+echo"<br>";
+
+// result: "Invalid date"
+
+echo checkdate(31,4,2006) ? "Valid date" : "Invalid date";
+
+?>
+
+Comments:
+
+Applications that accept date input from a user must validate this input before using it  for calculations or date operations. The checkdate() function simplifies this task considerably. It accepts a series of three arguments, representing day, month and year, and returns a Boolean value indicating whether the combination make up
+
+a legal date.
+
+An alternative way of accomplishing the same thing can be found in the PEAR Calendar class, available from http://pear.php.net/package/Calendar.
+
+This class offers an isValid() method to test the validity of a particular date value.
+
+ -------------------------------------------------------------------------------------
+
+
+ Problem:
+
+How to check a particular date is valid?
+
+ 
+
+Solution:
+
+Using PHP checkdate() function:
+
+<?php
+
+// check date 31-Apr-2006
+
+// result: "valid date"
+
+echo checkdate(10,25,2011) ? "Valid date" : "Invalid date";
+
+echo"<br>";
+
+// result: "Invalid date"
+
+echo checkdate(31,4,2006) ? "Valid date" : "Invalid date";
+
+?>
+
+Comments:
+
+Applications that accept date input from a user must validate this input before using it  for calculations or date operations. The checkdate() function simplifies this task considerably. It accepts a series of three arguments, representing day, month and year, and returns a Boolean value indicating whether the combination make up
+
+a legal date.
+
+An alternative way of accomplishing the same thing can be found in the PEAR Calendar class, available from http://pear.php.net/package/Calendar.
+
+This class offers an isValid() method to test the validity of a particular date value.
+
+ 

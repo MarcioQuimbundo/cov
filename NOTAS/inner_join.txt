@@ -1,0 +1,1 @@
+	$query = "SELECT * FROM `tbl_agenda` inner join tbl_paciente on(tbl_paciente.Id=tbl_agenda.id_paciente) WHERE id_medico=$id_usuario AND tbl_paciente.agendado=1 AND pagou=1 AND triado=1";

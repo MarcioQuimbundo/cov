@@ -1,0 +1,160 @@
+<li>
+                            <a href='javascript:;' title='Vendors'>
+                                <i class='glyph-icon icon-folder-open'></i>
+                                LABORATÓRIO
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href='lab_consultas.php' title='Add Vendor'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        CONSULTAS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='BUE.php' title='Add Vendor'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        BUE
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='externos.php' title='Add Quotation'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        EXTERNOS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='internados.php' title='Add Quotation'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        INTERNADOS
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+                        --------------------------------------------------
+
+
+
+
+
+
+
+                        <li>
+                            <a href='javascript:;' title='Others'>
+                                <i class='glyph-icon icon-folder-open'></i>
+                                ADMINISTRAÇÃO
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href='estatistica.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        ESTATÍSTICA 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='recursos_humanos.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        RECURSOS HUMANOS 
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href='javascript:;' title='Others'>
+                                <i class='glyph-icon icon-folder-open'></i>
+                                RELATÓRIOS
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href='relatorio_consultas.php' title='Add'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        CONSULTAS 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='others.php' title='Add'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        AGENDAMENTOS 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='search_others.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        EXAMES 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='search_others.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        TRIAGENS 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='search_others.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        INTERNAMENTOS 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='search_others.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        PAGAMENTOS 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='search_others.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        URGÊNCIA E EMERG. 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='search_others.php' title='Search'>
+                                        <i class='glyph-icon icon-chevron-right'></i>
+                                        LABORATÓRIO 
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        ---------------------------------------------------------------------------
+
+                        <li>
+                                        <a href='javascript:;' title='Cadastros'>
+                                            <i class='glyph-icon icon-folder-open'></i>
+                                            BANCO DE URGÊNCIA
+                                        </a>
+                                        <ul>                               
+                                            <li>
+                                                <a href='pacientes_banco_urgencia.php' title='Pacientes'>
+                                                    <i class='glyph-icon icon-chevron-right'></i>
+                                                    PACIENTES
+                                                </a>
+                                            </li>                                
+                                        </ul>
+                                    </li>
+
+
+
+                                    <li>
+                                        <a href='javascript:;' title='Cadastros'>
+                                            <i class='glyph-icon icon-folder-open'></i>
+                                            PROCEDIMENTOS
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a href='#####.php' title='Pacientes'>
+                                                    <i class='glyph-icon icon-chevron-right'></i>
+                                                    #######
+                                                </a>
+                                            </li>                                
+                                        </ul>
+                                    </li>

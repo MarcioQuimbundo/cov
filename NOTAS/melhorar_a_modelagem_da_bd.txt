@@ -1,0 +1,12 @@
+-----------------------------
+
+repeticao do nome no user - caixa
+
+id do servico em vez do nome
+
+tela verde para gerar fatura
+
+
+----------------------------------------
+
+pacientes_facturacao.php -> se o paciente já pagou, retorna -> pacientes_facturacao.php -> na url
